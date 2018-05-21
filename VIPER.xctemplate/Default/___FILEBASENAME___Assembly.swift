@@ -12,9 +12,17 @@ import SwinjectStoryboard
 final class ___VARIABLE_productName:identifier___AssemblyContainer: Assembly {
 
     func assemble(container: Container) {
+
+        container.register(___VARIABLE_productName:identifier___Repository.self) { r in
+            let repository = ___VARIABLE_productName:identifier___Repository()
+         
+            return repository
+        }
+
         container.register(___VARIABLE_productName:identifier___Interactor.self) { (r, presenter: ___VARIABLE_productName:identifier___Presenter) in
             let interactor = ___VARIABLE_productName:identifier___Interactor()
             interactor.presenter = presenter
+            interactor.repository = r.resolve(___VARIABLE_productName:identifier___Repository.self)
 
             return interactor
         }
@@ -38,6 +46,7 @@ final class ___VARIABLE_productName:identifier___AssemblyContainer: Assembly {
         container.storyboardInitCompleted(___VARIABLE_productName:identifier___View.self) { r, view in
             view.presenter = r.resolve(___VARIABLE_productName:identifier___Presenter.self, argument: view)
         }
+        
     }
 
 }
