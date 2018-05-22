@@ -29,7 +29,7 @@ final class ___VARIABLE_productName:identifier___Presenter: ___VARIABLE_productN
     // MARK: -
     // MARK: ___VARIABLE_productName:identifier___ViewOutput
     func viewIsReady() {
-
+        view.setupInitialState()
     }
 
 }
