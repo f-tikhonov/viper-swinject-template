@@ -11,10 +11,9 @@ protocol ___VARIABLE_productName:identifier___ModuleInput: class {
 
 }
 
-final class ___VARIABLE_productName:identifier___Presenter: ___VARIABLE_productName:identifier___ViewOutput {
+final class ___VARIABLE_productName:identifier___Presenter {
 
-    // MARK: -
-    // MARK: Properties
+    // MARK: - Properties
 
     weak var view: ___VARIABLE_productName:identifier___ViewInput!
     var interactor: ___VARIABLE_productName:identifier___InteractorInput!
@@ -26,23 +25,24 @@ final class ___VARIABLE_productName:identifier___Presenter: ___VARIABLE_productN
         #endif
     }
 
-    // MARK: -
-    // MARK: ___VARIABLE_productName:identifier___ViewOutput
+}
+
+// MARK: - ___VARIABLE_productName:identifier___ViewOutput
+extension ___VARIABLE_productName:identifier___Presenter: ___VARIABLE_productName:identifier___ViewOutput {
+
     func viewIsReady() {
         view.setupInitialState()
     }
 
 }
 
-// MARK: -
-// MARK: ___VARIABLE_productName:identifier___InteractorOutput
+// MARK: - ___VARIABLE_productName:identifier___InteractorOutput
 extension ___VARIABLE_productName:identifier___Presenter: ___VARIABLE_productName:identifier___InteractorOutput {
 
 
 }
 
-// MARK: -
-// MARK: ___VARIABLE_productName:identifier___ModuleInput
+// MARK: - ___VARIABLE_productName:identifier___ModuleInput
 extension ___VARIABLE_productName:identifier___Presenter: ___VARIABLE_productName:identifier___ModuleInput {
 
 

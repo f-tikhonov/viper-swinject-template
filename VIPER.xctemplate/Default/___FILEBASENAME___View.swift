@@ -22,12 +22,10 @@ protocol ___VARIABLE_productName:identifier___ViewOutput: class {
 
 final class ___VARIABLE_productName:identifier___View: UIViewController {
 
-	// MARK: -
-	// MARK: Properties
+	// MARK: - Properties
 	var presenter: ___VARIABLE_productName:identifier___ViewOutput!
 
-	// MARK: -
-	// MARK: Life cycle
+	// MARK: - Life cycle
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		presenter.viewIsReady()
@@ -35,8 +33,7 @@ final class ___VARIABLE_productName:identifier___View: UIViewController {
 
 }
 
-// MARK: -
-// MARK: ___VARIABLE_productName:identifier___ViewInput
+// MARK: - ___VARIABLE_productName:identifier___ViewInput
 extension ___VARIABLE_productName:identifier___View: ___VARIABLE_productName:identifier___ViewInput {
 
 	func setupInitialState() {

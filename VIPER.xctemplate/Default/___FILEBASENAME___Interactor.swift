@@ -18,9 +18,14 @@ protocol ___VARIABLE_productName:identifier___InteractorOutput: class {
 
 }
 
-final class ___VARIABLE_productName:identifier___Interactor: ___VARIABLE_productName:identifier___InteractorInput {
+final class ___VARIABLE_productName:identifier___Interactor {
 
   weak var presenter: ___VARIABLE_productName:identifier___InteractorOutput!
   var repository: ___VARIABLE_productName:identifier___RepositoryInput!
 
+}
+
+// MARK: - ___VARIABLE_productName:identifier___Interactor: ___VARIABLE_productName:identifier___InteractorInput
+extension ___VARIABLE_productName:identifier___Interactor: ___VARIABLE_productName:identifier___InteractorInput {
+	
 }

@@ -13,7 +13,7 @@ protocol ___VARIABLE_productName:identifier___RepositoryInput: class {
 
 }
 
-final class ___VARIABLE_productName:identifier___Repository: ___VARIABLE_productName:identifier___RepositoryInput {
+final class ___VARIABLE_productName:identifier___Repository {
 
     init() {
         #if DEBUG
@@ -26,4 +26,9 @@ final class ___VARIABLE_productName:identifier___Repository: ___VARIABLE_product
         print("___VARIABLE_productName:identifier___Repository deinit()")
         #endif
     }
+}
+
+// MARK: - ___VARIABLE_productName:identifier___Repository: ___VARIABLE_productName:identifier___RepositoryInput
+extension ___VARIABLE_productName:identifier___Repository: ___VARIABLE_productName:identifier___RepositoryInput {
+
 }
