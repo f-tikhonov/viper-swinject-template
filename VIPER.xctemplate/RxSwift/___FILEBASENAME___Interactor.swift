@@ -27,3 +27,8 @@ final class ___VARIABLE_productName:identifier___Interactor {
 extension ___VARIABLE_productName:identifier___Interactor: ___VARIABLE_productName:identifier___InteractorInput {
 	
 }
+
+// MARK: - ___VARIABLE_productName:identifier___Interactor: ___VARIABLE_productName:identifier___DataManagerOutput
+extension ___VARIABLE_productName:identifier___Interactor: ___VARIABLE_productName:identifier___DataManagerOutput {
+    
+}

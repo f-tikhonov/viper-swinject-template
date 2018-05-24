@@ -12,7 +12,13 @@ protocol ___VARIABLE_productName:identifier___DataManagerInput: class {
 
 }
 
+protocol ___VARIABLE_productName:identifier___DataManagerOutput: class {
+    
+}
+
 final class ___VARIABLE_productName:identifier___DataManager {
+
+    weak var interactor: ___VARIABLE_productName:identifier___DataManagerOutput!
 
     init() {
         #if DEBUG
