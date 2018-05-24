@@ -10,18 +10,16 @@ import Foundation
 
 protocol ___VARIABLE_productName:identifier___InteractorInput: class {
 
-
 }
 
 protocol ___VARIABLE_productName:identifier___InteractorOutput: class {
-
 
 }
 
 final class ___VARIABLE_productName:identifier___Interactor {
 
   weak var presenter: ___VARIABLE_productName:identifier___InteractorOutput!
-  var repository: ___VARIABLE_productName:identifier___RepositoryInput!
+  var datamanager: ___VARIABLE_productName:identifier___DataManagerInput!
 
 }
 

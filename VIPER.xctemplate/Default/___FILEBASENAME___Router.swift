@@ -10,7 +10,6 @@ import LightRoute
 
 protocol ___VARIABLE_productName:identifier___RouterInput: class {
 
-
 }
 
 final class ___VARIABLE_productName:identifier___Router {

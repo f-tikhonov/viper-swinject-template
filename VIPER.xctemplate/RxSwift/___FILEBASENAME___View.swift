@@ -9,15 +9,11 @@
 import UIKit
 
 protocol ___VARIABLE_productName:identifier___ViewInput: class {
-
 	func setupInitialState()
-
 }
 
 protocol ___VARIABLE_productName:identifier___ViewOutput: class {
-
-	func viewIsReady()
-	
+	func viewIsReady()	
 }
 
 final class ___VARIABLE_productName:identifier___View: UIViewController {

@@ -13,16 +13,16 @@ final class ___VARIABLE_productName:identifier___AssemblyContainer: Assembly {
 
     func assemble(container: Container) {
 
-        container.register(___VARIABLE_productName:identifier___Repository.self) { r in
-            let repository = ___VARIABLE_productName:identifier___Repository()
+        container.register(___VARIABLE_productName:identifier___DataManager.self) { r in
+            let datamanager = ___VARIABLE_productName:identifier___DataManager()
          
-            return repository
+            return datamanager
         }
 
         container.register(___VARIABLE_productName:identifier___Interactor.self) { (r, presenter: ___VARIABLE_productName:identifier___Presenter) in
             let interactor = ___VARIABLE_productName:identifier___Interactor()
             interactor.presenter = presenter
-            interactor.repository = r.resolve(___VARIABLE_productName:identifier___Repository.self)
+            interactor.datamanager = r.resolve(___VARIABLE_productName:identifier___DataManager.self)
 
             return interactor
         }

@@ -8,7 +8,6 @@
 
 protocol ___VARIABLE_productName:identifier___ModuleInput: class {
 
-
 }
 
 final class ___VARIABLE_productName:identifier___Presenter {
@@ -21,7 +20,7 @@ final class ___VARIABLE_productName:identifier___Presenter {
 
     init() {
         #if DEBUG
-            print("___VARIABLE_productName:identifier___Presenter init()")
+        print("___VARIABLE_productName:identifier___Presenter init()")
         #endif
     }
 
