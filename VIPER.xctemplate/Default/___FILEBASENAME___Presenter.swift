@@ -24,6 +24,13 @@ final class ___VARIABLE_productName:identifier___Presenter {
         #endif
     }
 
+    deinit {
+        #if DEBUG
+        print("___VARIABLE_productName:identifier___Presenter deinit")
+        #endif
+    }
+
+
 }
 
 // MARK: - ___VARIABLE_productName:identifier___ViewOutput
@@ -43,6 +50,9 @@ extension ___VARIABLE_productName:identifier___Presenter: ___VARIABLE_productNam
 
 // MARK: - ___VARIABLE_productName:identifier___ModuleInput
 extension ___VARIABLE_productName:identifier___Presenter: ___VARIABLE_productName:identifier___ModuleInput {
-
-
+    func configure(with data: String) {
+        #if DEBUG
+        print("___VARIABLE_productName:identifier___ \(String(describing: self)) configured with data: \(data)")
+        #endif
+    }
 }

@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import RxSwift
 
 protocol ___VARIABLE_productName:identifier___InteractorInput: class {
 
@@ -18,9 +19,9 @@ protocol ___VARIABLE_productName:identifier___InteractorOutput: class {
 
 final class ___VARIABLE_productName:identifier___Interactor {
 
-  weak var presenter: ___VARIABLE_productName:identifier___InteractorOutput!
-  var datamanager: ___VARIABLE_productName:identifier___DataManagerInput!
-
+	weak var presenter: ___VARIABLE_productName:identifier___InteractorOutput!
+	var datamanager: ___VARIABLE_productName:identifier___DataManagerInput!
+    var disposeBag = DisposeBag()
 }
 
 // MARK: - ___VARIABLE_productName:identifier___Interactor: ___VARIABLE_productName:identifier___InteractorInput

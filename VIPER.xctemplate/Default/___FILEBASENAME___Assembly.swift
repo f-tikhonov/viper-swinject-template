@@ -45,7 +45,7 @@ final class ___VARIABLE_productName:identifier___AssemblyContainer: Assembly {
         }
 
         container.storyboardInitCompleted(___VARIABLE_productName:identifier___View.self) { r, view in
-            view.presenter = r.resolve(___VARIABLE_productName:identifier___Presenter.self, argument: view)
+            view.output = r.resolve(___VARIABLE_productName:identifier___Presenter.self, argument: view)
         }
         
     }

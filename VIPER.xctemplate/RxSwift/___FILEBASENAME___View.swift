@@ -19,12 +19,12 @@ protocol ___VARIABLE_productName:identifier___ViewOutput: class {
 final class ___VARIABLE_productName:identifier___View: UIViewController {
 
 	// MARK: - Properties
-	var presenter: ___VARIABLE_productName:identifier___ViewOutput!
+	var output: ___VARIABLE_productName:identifier___ViewOutput!
 
 	// MARK: - Life cycle
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		presenter.viewIsReady()
+		output.viewIsReady()
 	}
 
 }
