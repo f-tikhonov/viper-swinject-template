@@ -58,6 +58,20 @@
 			<key>NotPersisted</key>
 			<true/>
 		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>Classic VIPER</string>
+			<key>Name</key>
+			<string>Use Classic VIPER</string>
+			<key>Description</key>
+			<string>Use Classic VIPER</string>
+			<key>Type</key>
+			<string>checkbox</string>
+			<key>Default</key>
+			<string>false</string>
+			<key>NotPersisted</key>
+			<true/>
+		</dict>
 	</array>
 	<key>Template Author</key>
 	<string>Fedor Tikhonov</string>
