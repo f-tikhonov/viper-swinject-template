@@ -8,13 +8,9 @@
 
 import Foundation
 
-protocol ___VARIABLE_productName:identifier___InteractorInput: class {
-
-}
-
-class ___VARIABLE_productName:identifier___Interactor {
+final class ___VARIABLE_productName:identifier___Interactor {
     
-    weak var presenter: ___VARIABLE_productName:identifier___InteractorOutput!
+    weak var output: ___VARIABLE_productName:identifier___InteractorOutput!
 
     init() {
         

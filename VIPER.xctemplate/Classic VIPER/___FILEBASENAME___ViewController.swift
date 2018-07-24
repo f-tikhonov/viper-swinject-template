@@ -8,18 +8,14 @@
 
 import UIKit
 
-protocol ___VARIABLE_productName:identifier___ViewInput: class {
+final class ___VARIABLE_productName:identifier___ViewController: UIViewController {
 
-}
-
-class ___VARIABLE_productName:identifier___ViewController: UIViewController {
-
-    var presenter: ___VARIABLE_productName:identifier___PresenterInput!
+    var output: ___VARIABLE_productName:identifier___ViewOutput!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        presenter.viewIsReady()
+        output.viewIsReady()
     }
     
 }

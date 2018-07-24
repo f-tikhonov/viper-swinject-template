@@ -8,15 +8,7 @@
 
 import Foundation
 
-protocol ___VARIABLE_productName:identifier___PresenterInput: class {
-    func viewIsReady()
-}
-
-protocol ___VARIABLE_productName:identifier___InteractorOutput: class {
-    
-}
-
-class ___VARIABLE_productName:identifier___Presenter: ___VARIABLE_productName:identifier___PresenterInput {
+final class ___VARIABLE_productName:identifier___Presenter {
     
     weak var view: ___VARIABLE_productName:identifier___ViewInput!
     var interactor: ___VARIABLE_productName:identifier___InteractorInput!
@@ -27,6 +19,11 @@ class ___VARIABLE_productName:identifier___Presenter: ___VARIABLE_productName:id
     func viewIsReady() {
         
     }
+    
+}
+
+// MARK: - ___VARIABLE_productName:identifier___ViewOutput
+extension ___VARIABLE_productName:identifier___Presenter: ___VARIABLE_productName:identifier___ViewOutput {
     
 }
 
